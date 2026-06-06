@@ -1,6 +1,7 @@
 # TechnoHacks Java Internship
 
-This repository contains the Java programming tasks completed as part of the Java Development Internship Program offered by TechnoHacks Solutions.
+This repository contains the Java programming tasks completed as part of the Java Development
+Internship Program offered by TechnoHacks Solutions.
 
 ## Tasks
 
