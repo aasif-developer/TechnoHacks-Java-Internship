@@ -1,24 +1,17 @@
-
 import java.util.Scanner;
-
 public class Task01_Calculator {
-
     static int add(int a, int b) {
         return a + b;
     }
-
     static int subtract(int a, int b) {
         return a - b;
     }
-
     static int multiply(int a, int b) {
         return a * b;
     }
-
     static int divide(int a, int b) {
         return a / b;
     }
-
     static int modulus(int a, int b) {
         return a % b;
     }
@@ -71,7 +64,6 @@ public class Task01_Calculator {
                 System.out.println("Thank You for Using the Calculator!");
                 break;
             }
-
             System.out.println();
         }
         obj.close();
