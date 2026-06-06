@@ -1,37 +1,32 @@
+
 import java.util.Scanner;
-public class Task01_Calculator
-{
-    static int add(int a, int b)
-    {
+
+public class Task01_Calculator {
+
+    static int add(int a, int b) {
         return a + b;
     }
 
-    static int subtract(int a, int b)
-    {
+    static int subtract(int a, int b) {
         return a - b;
     }
 
-    static int multiply(int a, int b)
-    {
+    static int multiply(int a, int b) {
         return a * b;
     }
 
-    static int divide(int a, int b)
-    {
+    static int divide(int a, int b) {
         return a / b;
     }
 
-    static int modulus(int a, int b)
-    {
+    static int modulus(int a, int b) {
         return a % b;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("SIMPLE CALCULATOR");
-        while(true)
-        {
+        while (true) {
             System.out.print("Enter First Number: ");
             int a = obj.nextInt();
             System.out.print("Enter Second Number: ");
@@ -47,50 +42,32 @@ public class Task01_Calculator
             System.out.print("Enter Operator: ");
             char op = obj.next().charAt(0);
 
-            if(op == '+')
-            {
+            if (op == '+') {
                 System.out.println("Result = " + add(a, b));
-            }
-            else if(op == '-')
-            {
+            } else if (op == '-') {
                 System.out.println("Result = " + subtract(a, b));
-            }
-            else if(op == '*')
-            {
+            } else if (op == '*') {
                 System.out.println("Result = " + multiply(a, b));
-            }
-            else if(op == '/')
-            {
-                if(b == 0)
-                {
+            } else if (op == '/') {
+                if (b == 0) {
                     System.out.println("Division by zero is not allowed.");
-                }
-                else
-                {
+                } else {
                     System.out.println("Result = " + divide(a, b));
                 }
-            }
-            else if(op == '%')
-            {
-                if(b == 0)
-                {
+            } else if (op == '%') {
+                if (b == 0) {
                     System.out.println("Modulus by zero is not allowed.");
-                }
-                else
-                {
+                } else {
                     System.out.println("Result = " + modulus(a, b));
                 }
-            }
-            else
-            {
+            } else {
                 System.out.println("Invalid Operator!");
             }
 
             System.out.print("\nDo you want to continue? (y/n): ");
             char choice = obj.next().charAt(0);
 
-            if(choice == 'n' || choice == 'N')
-            {
+            if (choice == 'n' || choice == 'N') {
                 System.out.println("Thank You for Using the Calculator!");
                 break;
             }
