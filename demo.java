@@ -19,6 +19,11 @@ public class demo {
             }
         } catch (Exception e) {
             System.out.println("ENTER VALID INDEX VALUE");
+
+        }
+        finally
+        {
+            System.out.println("PROGRAM FINISHED");
         }
     }
 }
