@@ -1,11 +1,8 @@
-// Bubble Sort for sorting the array
-// Linear Search for searching an element
-
+// Bubble Sort for sorting the array // Linear Search for searching an element
 import java.util.*;
 public class Task07_ArrayManipulation
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner obj = new Scanner(System.in);
         int[] arr = {40,20,70,90,50};
         for(int i = 0; i < arr.length - 1; i++)
@@ -36,5 +33,4 @@ public class Task07_ArrayManipulation
             }
         }
         System.out.println("ELEMENT NOT FOUND");
-    }
-}
+    }}
