@@ -1,5 +1,5 @@
 import java.util.*;
-public class demo3
+public class Throw
 {
     static void checkAge(int age)
     {

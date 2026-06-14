@@ -1,8 +1,8 @@
 //implementation of Exception handling try catch finally eg
-
 import java.util.*;
 
-public class demo {
+public class Try_Catch_Finally
+{
 
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);

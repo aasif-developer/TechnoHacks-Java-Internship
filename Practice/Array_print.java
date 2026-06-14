@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class demo4
+public class Array_print
 {
     public static void main(String[] args)
     {
@@ -27,4 +26,4 @@ public class demo4
 
         obj.close();
     }
-}e
+}
