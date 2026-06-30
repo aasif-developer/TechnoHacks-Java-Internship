@@ -1,5 +1,4 @@
 import java.io.*;
-
 public class Task05_FileHandling
 {
     public static void main(String[] args)
@@ -10,14 +9,11 @@ public class Task05_FileHandling
             FileWriter fw = new FileWriter("data.txt");
             fw.write("Hello from Java File Handling");
             fw.close();
-
+            
             // Reading from file
             FileReader fr = new FileReader("data.txt");
-
             int ch;
-
             System.out.println("FILE CONTENTS:");
-
             while((ch = fr.read()) != -1)
             {
                 System.out.print((char)ch);
