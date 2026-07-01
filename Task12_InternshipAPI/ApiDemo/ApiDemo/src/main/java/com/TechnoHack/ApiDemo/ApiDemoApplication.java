@@ -10,3 +10,4 @@ public class ApiDemoApplication {
 		SpringApplication.run(ApiDemoApplication.class, args);
 	}
 }
+//http://localhost:8081/
